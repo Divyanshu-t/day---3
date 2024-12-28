@@ -21,7 +21,7 @@ body , html{
 .right{
     height: 100%;
     width: 20%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */   
 }
 
 .left .ltop{
@@ -48,6 +48,7 @@ body , html{
 .right .rbottom{
     height: 30%;
     width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1520009061071-659eaf168151?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     /* background-color: blueviolet; */
 }
 
@@ -206,6 +207,10 @@ body , html{
     align-items: center;
     justify-content: center;
 
+}
+
+.right .rbottom{
+    background-image: url("https://images.unsplash.com/photo-1520009061071-659eaf168151?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 
