@@ -112,9 +112,34 @@ body , html{
     justify-content: space-between;
 }
 
+.left .ltop{
+    position: relative;
+}
+
+.ltop .ltopicon{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color:rgba(218, 212, 212, 0.493);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+
+}
+
+/* .ltop .ltopicon i{
+    right: 0;
+
+} */
+
 /* ---------------------------------------- */
 
 .right .rtop{
+    position: relative;
     padding: 40px;
     background-color: aliceblue;
     display: flex;
@@ -137,11 +162,7 @@ body , html{
     content: "-  ";
 }
 
-.right .rtop{
-    position: relative;
-}
-
-.img{
+.rtop .img{
     background-image: url("https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     position: absolute;
     left: 0%;
@@ -153,7 +174,39 @@ body , html{
     border-radius: 2px;
 }
 
+.rtop .icon{
+    /* flex-direction: column; */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-weight: 900;
+}
 
+
+.rtop .icon{
+    padding: 20px 40px;
+}
+
+.rtop .img i{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 
